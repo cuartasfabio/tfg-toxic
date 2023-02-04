@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+    <language iso="es">
+        <string stringId="CARD_COLLECTION">Cartas</string>
+        
+        <string stringId="CARD_MENU_BASE">Cartas Base</string>
+        <string stringId="CARD_MENU_WORLD1">Suburbios</string>
+        <string stringId="CARD_MENU_WORLD2">Páramo</string>
+        <string stringId="CARD_MENU_WORLD3">Tundra</string>
+        
+        <string stringId="RUN_SETTINGS">Selecciona modo de juego...</string>
+
+        <string stringId="TRAVEL_START">INICIAR PARTIDA</string>
+        <string stringId="TRAVEL_NEXT">VIAJAR AL SIGUIENTE MUNDO</string>
+
+        <string stringId="RUN_MODE_NAME">Modo Run</string>
+        <string stringId="RUN_MODE_DESC">Viaja por varios escenarios, cada uno con diferentes cartas y tiles por descubrir. Completa las misiones de cada nivel para avanzar y desbloquear nuevas cartas.</string>
+        <string stringId="ENDLESS_MODE_NAME">Modo Endless</string>
+        <string stringId="ENDLESS_MODE_DESC">Todas las cartas y tiles de otros niveles disponibles. Sin misiones. ¿Cuánto podrás subsistir?</string>
+
+        <string stringId="GAME_OVER_OUT_OF_CARDS">Te has quedado sin cartas</string>
+        <string stringId="GAME_OVER_OUT_OF_SPACE">Te has quedado sin espacio</string>
+        <string stringId="GAME_OVER_HIGHSCORE">Tu record es</string>
+        <string stringId="GAME_OVER_SCORE">Shards</string>
+        <string stringId="WIN_MESSAGE">¡Has completados todos los niveles!</string>
+        
+        <string stringId="CARD_NONE">INEXPLORADO</string>
+            <string stringId="CARD_NONE_DESC">???</string>
+        <string stringId="CARD_GROUND">TIERRA</string>
+            <string stringId="CARD_GROUND_DESC">Tile vacía</string>
+        
+        
+        <string stringId="CARD_DEEPFOREST">GRAN BOSQUE</string>
+            <string stringId="CARD_DEEPFOREST_DESC">Los BOSQUE se multiplican a su alrededor.</string>
+        <string stringId="CARD_EXPLORER">EXPLORADOR</string>
+            <string stringId="CARD_EXPLORER_DESC">Puede colocarse en FRONTERA para desvelar casillas sin explorar o en ciertas casillas para investigarlas, luego desaparece. </string>
+        <string stringId="CARD_FOREST">BOSQUE</string>
+            <string stringId="CARD_FOREST_DESC">Acumula 2 BOSQUE en una casiila para crecer GRAN BOSQUE. Al colocarse, genera un BOSQUE extra por cada GRAN BOSQUE colindante.</string>
+        
+        <string stringId="CARD_LAKE">LAGO</string>
+            <string stringId="CARD_LAKE_DESC">Al colocarse junto otro LAGO, se conectan.</string>
+        <string stringId="CARD_MEADOW">PRADERA</string>
+            <string stringId="CARD_MEADOW_DESC">TODO</string>
+        <string stringId="CARD_RUINS">RUINAS</string>
+            <string stringId="CARD_RUINS_DESC">Pueden ser investigas por EXPLORADOR.</string>
+        <string stringId="CARD_CAMPSITE">CAMPAMENTO</string>
+            <string stringId="CARD_CAMPSITE_DESC">Todo CAMPSITE rodeador de dos CAMPSITE, se convierte en VILLA. Una VILLA totalmente rodeada se convierte en CIUDAD.</string>
+        
+        <string stringId="CARD_FRONTIER">FRONTERA</string>
+            <string stringId="CARD_FRONTIER_DESC">Tóxicas nubes que cubren todo el terreno inexplorado. Solo los EXPLORADOR pueden adentrarse en ellas.</string>
+        <string stringId="CARD_VILLAGE">VILLA</string>
+            <string stringId="CARD_VILLAGE_DESC">Todo CAMPSITE rodeador por dos CAMPSITE, se convierte en VILLA. Una VILLA totalmente rodeada se convierte en CIUDAD.</string>
+        <string stringId="CARD_CITY">CIUDAD</string>
+            <string stringId="CARD_CITY_DESC">Todo CAMPSITE rodeador por dos CAMPSITE, se convierte en VILLA. Una VILLA totalmente rodeada se convierte en CIUDAD.</string>
+        <string stringId="CARD_MOUNTAIN">MONTAÑA</string>
+            <string stringId="CARD_MOUNTAIN_DESC">Sus MOUNTAIN adyacentes no pueden ser adyacentes entre si.</string>
+        
+        <string stringId="CARD_FARMLAND">TIERRA FÉRTIL</string>
+            <string stringId="CARD_FARMLAND_DESC">Cerca de GRANJA crece en CULTIVOS.</string>
+        <string stringId="CARD_FARM">GRANJA</string>
+            <string stringId="CARD_FARM_DESC">Hace crecer TIERRA FÉRTIL en CULTIVOS. Al colocarse cerca de CULTIVOS de otra GRANJA, pierde SHARDS.</string>
+        
+        <string stringId="CARD_DUNES">DUNAS</string>
+            <string stringId="CARD_DUNES_DESC">TODO</string>
+        
+        <string stringId="CARD_SHARDMINE">MINE DE ESQUIRLAS</string>
+            <string stringId="CARD_SHARDMINE_DESC">TODO</string>
+    
+
+        <string stringId="QUEST_DEFAULT_EXPLORE_TILES">Explora $amount$ casillas.</string>
+        <string stringId="QUEST_DEFAULT_BUILD_CAMPS">Construye $amount$ CAMPAMENTO, VILLA o CIUDAD.</string>
+        <string stringId="QUEST_DEFAULT_SCORE_IN1TURNS">Obtiene $amount$ o más fragmentos en un solo turno.</string>
+
+        <string stringId="QUEST_WORLD1_FARMS">Coloca $amount$ GRANJA.</string>
+        <string stringId="QUEST_WORLD1_MEADOWS">Coloca $amount$ PRADERA.</string>
+        <string stringId="QUEST_WORLD2_DUNES">Coloca $amount$ DUNAS.</string>
+        <string stringId="QUEST_WORLD2_MINES">Descubre $amount$ MINE DE ESQUIRLAS.</string>
+        
+        
+    </language>
+</localization>

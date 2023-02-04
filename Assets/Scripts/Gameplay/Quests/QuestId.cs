@@ -1,0 +1,21 @@
+﻿namespace Gameplay.Quests
+{
+	public enum QuestId
+	{
+		DEFAULT_EXPLORE_TILES_1,
+		DEFAULT_BUILD_CAMPS_1,
+		DEFAULT_SCORE_IN1TURN_1,
+		DEFAULT_EXPLORE_TILES_2,
+		DEFAULT_BUILD_CAMPS_2,
+		DEFAULT_SCORE_IN1TURN_2,
+		DEFAULT_EXPLORE_TILES_3,
+		DEFAULT_BUILD_CAMPS_3,
+		DEFAULT_SCORE_IN1TURN_3,
+		
+		WORLD1_TEST_1, // place farms
+		WORLD1_TEST_2, // place meadow
+		
+		WORLD2_TEST_1, // place dunes
+		WORLD2_TEST_2	// discover shard mines
+	}
+}

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<localization>
+    <language iso="en">
+        <string stringId="CARD_COLLECTION">Cards</string>
+        
+        <string stringId="CARD_MENU_BASE">Base Cards</string>
+        <string stringId="CARD_MENU_WORLD1">Outskirts</string>
+        <string stringId="CARD_MENU_WORLD2">Badlands</string>
+        <string stringId="CARD_MENU_WORLD3">Tundra</string>
+        
+        
+        <string stringId="RUN_SETTINGS">Choose game mode...</string>
+
+        <string stringId="TRAVEL_START">START GAME</string>
+        <string stringId="TRAVEL_NEXT">TO NEXT WORLD</string>
+
+        <string stringId="RUN_MODE_NAME">Run Mode</string>
+        <string stringId="RUN_MODE_DESC">Travel through several scenaries, each of them with different cards and tiles to discover. Complete the quests in each level to move forward and unlock new cards.</string>
+        <string stringId="ENDLESS_MODE_NAME">Endless Mode</string>
+        <string stringId="ENDLESS_MODE_DESC">All the cards and tiles from every level to use and discover. No quests. How long can you endure?</string>
+
+        <string stringId="GAME_OVER_OUT_OF_CARDS">You ran out of cards</string>
+        <string stringId="GAME_OVER_OUT_OF_SPACE">You ran out of space</string>
+        <string stringId="GAME_OVER_HIGHSCORE">Your highscore is</string>
+        <string stringId="GAME_OVER_SCORE">Shards</string>
+        <string stringId="WIN_MESSAGE">All levels completed!</string>
+
+        <string stringId="CARD_NONE">UNEXPLORED</string>
+            <string stringId="CARD_NONE_DESC">???</string>
+        <string stringId="CARD_GROUND">GROUND</string>
+            <string stringId="CARD_GROUND_DESC">An empty tile.</string>
+       
+        <string stringId="CARD_DEEPFOREST">DEEP FOREST</string>
+            <string stringId="CARD_DEEPFOREST_DESC">FOREST multiply next to it.</string>
+        <string stringId="CARD_EXPLORER">EXPLORER</string>
+            <string stringId="CARD_EXPLORER_DESC">Can be placed in FRONTIER to uncover unexplored tiles or sent to investigate certain tiles, then it disappears.</string>
+        <string stringId="CARD_FOREST">FOREST</string>
+            <string stringId="CARD_FOREST_DESC">Stack 2 FOREST in one tile to grow DEEP FOREST. When placed, it generates one extra FOREST for each adjacent DEEP FOREST.</string>
+        
+        <string stringId="CARD_LAKE">LAKE</string>
+            <string stringId="CARD_LAKE_DESC">When placed next to other LAKE, they connect.</string>
+        <string stringId="CARD_MEADOW">MEADOW</string>
+            <string stringId="CARD_MEADOW_DESC">TODO</string>
+        <string stringId="CARD_RUINS">RUINS</string>
+            <string stringId="CARD_RUINS_DESC">Can be investigated by EXPLORER.</string>
+        <string stringId="CARD_CAMPSITE">CAMPSITE</string>
+            <string stringId="CARD_CAMPSITE_DESC">Every CAMPSITE surrounded by two other CAMPSITE, turns into VILLAGE. A fully surrounded VILLAGE turns into CITY.</string>
+        
+        <string stringId="CARD_FRONTIER">FRONTIER</string>
+            <string stringId="CARD_FRONTIER_DESC">Toxic clouds covering unexplored territories. Only EXPLORER can venture in.</string>
+        <string stringId="CARD_VILLAGE">VILLAGE</string>
+            <string stringId="CARD_VILLAGE_DESC">Every CAMPSITE surrounded by two other CAMPSITE, turns into VILLAGE. A fully surrounded VILLAGE turns into CITY.</string>
+        <string stringId="CARD_CITY">CITY</string>
+            <string stringId="CARD_CITY_DESC">Every CAMPSITE surrounded by two other CAMPSITE, turns into VILLAGE. A fully surrounded VILLAGE turns into CITY.</string>
+        <string stringId="CARD_MOUNTAIN">MOUNTAIN</string>
+            <string stringId="CARD_MOUNTAIN_DESC">It's adjacent MOUNTAIN can't be adjacent with each other.</string>
+        
+        <string stringId="CARD_FARMLAND">FARMLAND</string>
+            <string stringId="CARD_FARMLAND_DESC">It grows into CROPS when FARM is placed next to it.</string>
+        <string stringId="CARD_FARM">FARM</string>
+            <string stringId="CARD_FARM_DESC">Makes FARMLAND grow into CROPS. When placed next to CROPS from other FARM, lose SHARDS.</string>
+        
+        <string stringId="CARD_DUNES">DUNES</string>
+            <string stringId="CARD_DUNES_DESC">TODO</string>
+        
+        <string stringId="CARD_SHARDMINE">SHARD MINE</string>
+            <string stringId="CARD_SHARDMINE_DESC">TODO</string>
+        
+
+        <string stringId="QUEST_DEFAULT_EXPLORE_TILES">Explore $amount$ tiles.</string>
+        <string stringId="QUEST_DEFAULT_BUILD_CAMPS">Build $amount$ CAMPSITE, VILLAGE or CITY.</string>
+        <string stringId="QUEST_DEFAULT_SCORE_IN1TURNS">Obtain $amount$ or more shards in one turn.</string>
+
+        <string stringId="QUEST_WORLD1_FARMS">Place $amount$ FARM.</string>
+        <string stringId="QUEST_WORLD1_MEADOWS">Place $amount$ MEADOW.</string>
+        <string stringId="QUEST_WORLD2_DUNES">Place $amount$ DUNES.</string>
+        <string stringId="QUEST_WORLD2_MINES">Discover $amount$ SHARD MINE.</string>
+
+    </language>
+</localization>
